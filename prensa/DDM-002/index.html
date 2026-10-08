@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DDM-002 | Verificación de Acreditación</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background:
+        radial-gradient(circle at 20% 10%, rgba(0,216,255,.14), transparent 35%),
+        radial-gradient(circle at 85% 85%, rgba(112,61,255,.18), transparent 40%),
+        #050a11;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+}
+
+.card{
+    width:100%;
+    max-width:520px;
+    background:rgba(10,18,29,.88);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:28px;
+    padding:34px 28px;
+    text-align:center;
+    box-shadow:0 25px 70px rgba(0,0,0,.45);
+}
+
+.brand{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.brand img{
+    width:220px;
+    max-width:70%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
+h1{
+    font-size:24px;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    color:#9ba9b8;
+    font-size:14px;
+    margin-bottom:28px;
+}
+
+.photo{
+    width:145px;
+    height:145px;
+    margin:0 auto 22px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#00D8FF,#703DFF);
+    padding:3px;
+}
+
+.photo img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    object-fit:cover;
+    object-position:center 40%;
+    display:block;
+}
+
+.name{
+    font-size:27px;
+    font-weight:800;
+    margin-bottom:6px;
+}
+
+.role{
+    color:#b6c1cc;
+    font-size:16px;
+    margin-bottom:18px;
+}
+
+.id{
+    display:inline-block;
+    padding:7px 15px;
+    border-radius:20px;
+    background:rgba(0,216,255,.10);
+    border:1px solid rgba(0,216,255,.35);
+    color:#00D8FF;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-bottom:22px;
+}
+
+.status{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:9px;
+    color:#56e58b;
+    font-weight:800;
+    margin-bottom:24px;
+}
+
+.dot{
+    width:11px;
+    height:11px;
+    border-radius:50%;
+    background:#56e58b;
+    box-shadow:0 0 14px rgba(86,229,139,.8);
+}
+
+.info{
+    border-top:1px solid rgba(255,255,255,.10);
+    padding-top:22px;
+    color:#aeb9c5;
+    line-height:1.6;
+    font-size:14px;
+}
+
+.location{
+    margin-top:20px;
+    font-size:13px;
+    color:#778696;
+}
+
+.footer{
+    margin-top:28px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.08);
+    font-size:12px;
+    color:#687789;
+}
+
+.official{
+    color:#00D8FF;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<main class="card">
+
+    <div class="brand">
+    <img src="../../assets/logo-ddm.png" alt="Depto Digital Media">
+</div>
+
+    <h1>Verificación de acreditación</h1>
+
+    <div class="subtitle">
+        Sistema oficial de acreditaciones de prensa
+    </div>
+
+   <div class="photo">
+    <img src="../../lucas-barros.jpeg" alt="Lucas Barros">
+</div>
+
+    <div class="name">Lucas Barros</div>
+
+    <div class="role">Prensa · Fotografía</div>
+
+    <div class="id">DDM-002</div>
+
+    <div class="status">
+        <span class="dot"></span>
+        ACREDITACIÓN ACTIVA
+    </div>
+
+    <div class="info">
+        Esta credencial identifica a un integrante acreditado de
+        <strong>Depto Digital Media</strong> para tareas de prensa,
+        comunicación y cobertura audiovisual.
+    </div>
+
+    <div class="location">
+        Tucumán · Argentina
+    </div>
+
+    <div class="footer">
+        Verificación emitida desde el dominio oficial<br>
+        <span class="official">deptodigitalmedia.com.ar</span>
+    </div>
+
+</main>
+
+</body>
+</html>
+<!-- Actualización DDM-001 -->
